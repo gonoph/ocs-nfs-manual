@@ -128,7 +128,7 @@ create-dirs.sh - should be ran on a server with access to NFS mount
 create-pvs.yml - should be ran against the OCP master:
 
     oc login https://consoleurl:8443
-    oc create -f $(dirname `realpath $0`)/create-pvs.sh
+    oc create -f $(dirname `realpath $0`)/create-pvs.yml
 
 ###########################
 FOOTER
